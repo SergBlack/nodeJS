@@ -2,11 +2,11 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "NodeJS Fundamentals! There will be teaching materials and practice.",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint ./async/*.js --fix",
-    "start": "node index.js"
+    "start": "node index.mjs"
   },
   "repository": {
     "type": "git",
