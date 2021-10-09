@@ -1,0 +1,1 @@
+workshop from nodeschool.io/ru/#workshopper-list
