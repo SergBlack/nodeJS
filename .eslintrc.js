@@ -15,6 +15,7 @@ module.exports = {
     indent: ["error", 2],
     "linebreak-style": "off",
     quotes: ["error", "double"],
-    semi: ["error", "always"]
+    semi: ["error", "always"],
+    "no-underscore-dangle": "warn"
   }
 };
