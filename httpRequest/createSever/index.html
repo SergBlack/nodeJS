@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <h2>NodeJS</h2>
+
+    <div id="root"></div>
+
+    <script type="text/javascript">
+      const root = document.getElementById("root");
+
+      const xhrRequest = new XMLHttpRequest();
+      const url = "https://jsonplaceholder.typicode.com/users";
+
+      xhrRequest.onreadystatechange = () => {
+        if (xhrRequest.readyState === XMLHttpRequest.DONE) {
+          root.innerHTML = xhrRequest.status === 200
+            ? xhrRequest.responseText : `Error code: ${xhrRequest.status}`;
+        }
+      };
+
+      xhrRequest.open("GET", url, true);
+      xhrRequest.send();
+    </script>
+</body>
+</html>
