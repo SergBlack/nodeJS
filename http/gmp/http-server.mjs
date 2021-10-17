@@ -1,11 +1,11 @@
 import http from "http";
 
-const server = http.createServer();
+const httpServer = http.createServer();
 const PORT = Number(process.env.PORT) || 3005;
 
 const makeBlue = text => `\x1b[34m${text}\x1b[0m`;
 
-server.on("request", (req, res) => {
+httpServer.on("request", (req, res) => {
   const { url } = req;
 
   res.setHeader("Content-Type", "application/json");
@@ -14,5 +14,5 @@ server.on("request", (req, res) => {
   res.end(JSON.stringify({ url }));
 });
 
-server.listen(PORT);
+httpServer.listen(PORT);
 process.stdout.write(`Server running on port ${makeBlue(PORT)}`);
