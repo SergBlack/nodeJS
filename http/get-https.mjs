@@ -18,7 +18,7 @@ https.get(url, (res) => {
   });
 
   res.on("end", () => {
-    fs.writeFile("./httpRequest/response.json", rawData, (err) => {
+    fs.writeFile("./http/response.json", rawData, (err) => {
       if (err) {
         console.log(err);
       } else {
