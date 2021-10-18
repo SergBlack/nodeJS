@@ -22,5 +22,9 @@
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "node-tweet-stream": "^2.1.0",
+    "socket.io": "^4.3.1"
   }
 }
