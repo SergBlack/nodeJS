@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "616f03faea44a76134c91035",
+    "index": 0,
+    "guid": "94f6ce70-5c95-4932-af8f-82a0e6a22d6c",
+    "isActive": true,
+    "balance": "$2,468.70",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "brown",
+    "name": "Tonya Wiggins",
+    "gender": "female",
+    "company": "SOFTMICRO",
+    "email": "tonyawiggins@softmicro.com",
+    "phone": "+1 (941) 523-2614",
+    "address": "259 Gaylord Drive, Westwood, Kentucky, 2118",
+    "about": "Irure consectetur ea in elit quis. Officia non officia nostrud velit deserunt est elit nisi commodo quis esse nisi esse. Irure quis pariatur tempor do aliquip tempor Lorem voluptate aliqua dolore voluptate id Lorem. Non laborum adipisicing ad sint amet ex nisi.\r\n",
+    "registered": "2016-08-18T12:01:57 -03:00",
+    "latitude": -13.734337,
+    "longitude": 49.284994,
+    "tags": [
+      "occaecat",
+      "occaecat",
+      "fugiat",
+      "consectetur",
+      "commodo",
+      "consequat",
+      "reprehenderit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Christina Gibbs"
+      },
+      {
+        "id": 1,
+        "name": "Cathleen Cervantes"
+      },
+      {
+        "id": 2,
+        "name": "Meyers Compton"
+      }
+    ],
+    "greeting": "Hello, Tonya Wiggins! You have 3 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]
